@@ -1,0 +1,69 @@
+{
+    "catalogs": [
+        {
+            "name": "Red Plum",
+            "url": "https://www.redplum.com/tools/direct-mail-preferences",
+            "steps": [{
+                "highlights": [
+                    "#widget_fullName",
+                    "#widget_streetAddress",
+                    "#widget_aptunitNumber",
+                    "#widget_state",
+                    "#widget_zipCode",
+                    "#widget_acceptAgreement",
+                    "#widget_identification",
+                    "#captchaDiv",
+                    "#buttonSubmitButton"
+                ]
+            }]
+        }, 
+        {
+            "name": "Chase",
+            "url": "https://www.optoutprescreen.com/",
+            "steps": [{
+                "clicks": [
+                    "form input[type='image']"
+                ]
+            }, {
+                "clicks": [
+                    "input[name='optChoice'][value='1']",
+                    "input[name='submit']"
+                ]
+            }, {
+                "highlights": [
+                    "input[name='fname']",
+                    "input[name='lname']",
+                    "input[name='ssn1']",
+                    "input[name='ssn2']",
+                    "input[name='ssn3']",
+                    "input[name='address1']",
+                    "input[name='city']",
+                    "select[name='state']",
+                    "input[name='zipcode']",
+                    "input[name='address2']",
+                    "input[name='telephone']",
+                    "input[name='guess']",
+                    "input[name='submitBack']"
+                ]
+            }]
+        },
+        {
+            "name": "Geico",
+            "url": "https://optout.geico.com/marketing/",
+            "steps": [{
+                "highlights": [
+                    "#firstName",
+                    "#lastName",
+                    "#street",
+                    "#street2",
+                    "#city",
+                    "#state",
+                    "#zip",
+                    "label[for='policyHolder1']",
+                    "label[for='policyHolder2']",
+                    "input[type='submit']"
+                ]
+            }]
+        }
+    ]
+}
